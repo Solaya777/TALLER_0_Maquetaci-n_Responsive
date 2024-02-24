@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-
-    <label for="usuario">Usuario:</label>
+    <div class="wrapper">
+        <img src="img/login/vector-login.svg" class="vector-login">
+        <img src="img/Hotelia horizontal negro.svg" class="hotelia-horizontal">
+        <img src="img/login/R.png" class="login-user">
+        <form>
+            <div class="input-box">
+    <label for="usuario">Usuario:</label> <br>
     <input type="text" id="Usuario" name="Usuario">
-
-    <label for="contraseña">Contraseña:</label>
+    <br>
+        </div>
+        <div class="input-box">
+    <label for="contraseña">Contraseña:</label><br>
     <input type="password" id="Contraseña" name="Contraseña">
+    <br>
+        </div>
 
-    <button>Ingresar</button>
+    <button type="submit" class="btn">Ingresar</button>
+    <div class="register-link">
+        <p>No tienes cuenta?<a href="register.html">Registrate aquí</a></p>
+    </div>
+</form>
     </div>
 
 </body>
